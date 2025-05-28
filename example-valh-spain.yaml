@@ -8,13 +8,13 @@ spec:
   maxReplicas: 5
   resources:
     requests:
-      cpu: "1000m"
-      memory: "100Mi"
+      cpu: "2000m"
+      memory: "6Gi"
     limits:
       cpu: "1500m"
       memory: "150Mi"
   persistence:
-    storage: "100Mi"
+    storage: "2Gi"
     storageClassName: standard-rwx
     accessMode: ReadWriteMany
   service:
