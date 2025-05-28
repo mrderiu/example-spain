@@ -3,7 +3,7 @@ kind: Valhalla
 metadata:
   name: example
 spec:
-  pbfUrl: https://download.geofabrik.de/europe/spain/cataluna-latest.osm.pbf
+  pbfUrl: https://download.geofabrik.de/europe/andorra-latest.osm.pbf
   minReplicas: 2
   maxReplicas: 5
   resources:
