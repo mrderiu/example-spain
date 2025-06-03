@@ -15,8 +15,8 @@ spec:
       memory: "3Gi"
   persistence:
     storage: "2Gi"
-    storageClassName: standard-rwx
-    accessMode: ReadWriteMany
+    storageClassName: standard
+    accessMode: ReadWriteOnce
   service:
     type: LoadBalancer
     annotations:
